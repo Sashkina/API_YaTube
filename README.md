@@ -65,13 +65,16 @@ python3 manage.py runserver
 ***Request sample:***
 POST /api/v1/posts/
 
+```json
 {
 "text": "string",
 "image": "string",
 "group": 0
 }
+```
 
 ***Response sample:***
+```json
 {
 "id": 0,
 "author": "string",
@@ -80,6 +83,7 @@ POST /api/v1/posts/
 "image": "string",
 "group": 0
 }
+```
 
 2. **Получение комментариев**
 
@@ -87,6 +91,7 @@ POST /api/v1/posts/
 GET /api/v1/posts/{post_id}/comments/
 
 ***Response sample:***
+```json
 [
 {
 "id": 0,
@@ -96,6 +101,7 @@ GET /api/v1/posts/{post_id}/comments/
 "post": 0
 }
 ]
+```
 
 ### Автор  
 Сашкина Кристина
