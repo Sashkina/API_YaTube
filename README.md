@@ -67,21 +67,21 @@ POST /api/v1/posts/
 
 ```json
 {
-"text": "string",
-"image": "string",
-"group": 0
+  "text": "string",
+  "image": "string",
+  "group": 0
 }
 ```
 
 ***Response sample:***
 ```json
 {
-"id": 0,
-"author": "string",
-"text": "string",
-"pub_date": "2019-08-24T14:15:22Z",
-"image": "string",
-"group": 0
+  "id": 0,
+  "author": "string",
+  "text": "string",
+  "pub_date": "2019-08-24T14:15:22Z",
+  "image": "string",
+  "group": 0
 }
 ```
 
@@ -93,13 +93,13 @@ GET /api/v1/posts/{post_id}/comments/
 ***Response sample:***
 ```json
 [
-{
-"id": 0,
-"author": "string",
-"text": "string",
-"created": "2019-08-24T14:15:22Z",
-"post": 0
-}
+  {
+    "id": 0,
+    "author": "string",
+    "text": "string",
+    "created": "2019-08-24T14:15:22Z",
+    "post": 0
+  }
 ]
 ```
 
